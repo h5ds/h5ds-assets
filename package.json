@@ -1,0 +1,35 @@
+{
+  "name": "h5ds-assets",
+  "version": "0.0.1",
+  "description": "h5ds assets",
+  "main": "index.js",
+  "scripts": {
+    "build:js": "gulp --gulpfile ./build/gulpfile.js --cwd ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h5ds/h5ds-assets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h5ds/h5ds-assets/issues"
+  },
+  "homepage": "https://github.com/h5ds/h5ds-assets#readme",
+  "dependencies": {
+    "antd": "^3.21.1",
+    "lodash": "^4.17.15",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1"
+  }
+}
