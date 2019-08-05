@@ -21,3 +21,13 @@ lodash => _
 # build js assets
 npm run build:js
 ```
+
+## How to test
+
+```bash
+# after npm run build:js
+anywhere
+
+# in browser console
+type React, ReactDOM...
+```
