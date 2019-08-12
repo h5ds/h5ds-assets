@@ -19,7 +19,7 @@ lodash => _
 
 ```bash
 # build js assets
-npm run build:js
+npm run build
 ```
 
 ## How to test
