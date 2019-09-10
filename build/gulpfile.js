@@ -13,7 +13,9 @@ const jsAssetsMin = [
   // Mobx
   './node_modules/mobx/lib/mobx.umd.min.js',
   // Lodash
-  './node_modules/lodash/lodash.min.js'
+  './node_modules/lodash/lodash.min.js',
+  // PubSub
+  './node_modules/PubSub/dist/pubsub.min.js'
 ];
 
 const jsAssets = [
@@ -26,7 +28,9 @@ const jsAssets = [
   // Mobx
   './node_modules/mobx/lib/mobx.umd.js',
   // Lodash
-  './node_modules/lodash/lodash.js'
+  './node_modules/lodash/lodash.js',
+  // PubSub
+  './node_modules/PubSub/src/pubsub.js'
 ];
 
 gulp.task('build-js:min', () => {

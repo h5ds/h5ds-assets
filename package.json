@@ -1,6 +1,6 @@
 {
   "name": "h5ds-assets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "h5ds assets",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/h5ds/h5ds-assets#readme",
   "dependencies": {
+    "PubSub": "^3.6.0",
     "antd": "^3.21.1",
     "lodash": "^4.17.15",
     "mobx": "^5.13.0",
