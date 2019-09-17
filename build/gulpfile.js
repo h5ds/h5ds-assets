@@ -44,21 +44,21 @@ const jsAssets = [
 gulp.task('build-preview-js:min', () => {
   return gulp
     .src(jsPreviewAssetsMin)
-    .pipe(concat(`h5ds-vendor-preview-${packageJson.version}.min.js`, { newLine: '\n\n' }))
+    .pipe(concat(`h5ds.vendor.preview.${packageJson.version}.min.js`, { newLine: '\n\n' }))
     .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('build-js:min', () => {
   return gulp
     .src(jsAssetsMin)
-    .pipe(concat(`h5ds-vendor-${packageJson.version}.min.js`, { newLine: '\n\n' }))
+    .pipe(concat(`h5ds.vendor.${packageJson.version}.min.js`, { newLine: '\n\n' }))
     .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('build-js', () => {
   return gulp
     .src(jsAssets)
-    .pipe(concat(`h5ds-vendor-${packageJson.version}.js`, { newLine: '\n\n' }))
+    .pipe(concat(`h5ds.vendor.${packageJson.version}.js`, { newLine: '\n\n' }))
     .pipe(gulp.dest('./dist'));
 });
 
