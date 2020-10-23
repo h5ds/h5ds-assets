@@ -11,7 +11,6 @@ react => window.React
 react-dom => window.ReactDOM
 react-router => window.ReactRouter
 react-router-dom => window.ReactRouterDOM
-mobx => window.mobx
 lodash => _
 ```
 
